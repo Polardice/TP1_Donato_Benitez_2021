@@ -16,7 +16,7 @@ public class ProvinciaController {
 	
 	public String cargarProvincia(Model model) {
 		unaProvincia.setNombreDeProvincia("Jujuy Argentina");
-		model.addAttribute("lucas",unaProvincia);
+		model.addAttribute("donato",unaProvincia);
 		return "provincia";
 	}
 }
